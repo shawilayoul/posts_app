@@ -1,0 +1,16 @@
+.links {
+    display: flex;
+    justify-content: space-between;
+    background-color: blueviolet;
+    padding: 10px;
+    margin-bottom: 5rem;
+}
+
+.link {
+    text-decoration: none;
+    margin-left: 2rem;
+    display: grid;
+    justify-content: center;
+    margin-bottom: 1rem;
+    color: #f1f1f1;
+}

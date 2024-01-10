@@ -1,0 +1,61 @@
+.post_lists {
+    display: flex;
+    justify-content: center;
+
+}
+
+.post_list {
+    display: grid;
+    justify-content: center;
+}
+
+.add_comment {
+    text-align: center;
+}
+
+.commentList {
+    margin: 5px;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 6px;
+    background-color: aqua;
+}
+
+.left_side {
+    width: 50%;
+    border: 2px solid blueviolet;
+    margin-right: 2px;
+}
+
+.right_side {
+    margin-left: 2px;
+    width: 50%;
+    border: 2px solid blueviolet;
+}
+
+.title,
+.user {
+    width: 250px;
+    border: 2px solid black;
+    height: 30px;
+    padding: 5px;
+    text-align: center;
+    border-radius: 6px;
+    padding-bottom: 1rem;
+}
+
+.user {
+    text-align: left;
+    margin-bottom: 10px;
+    background-color: blueviolet;
+    color: white;
+}
+
+.post {
+    width: 250px;
+    border: 2px solid black;
+    height: 150px;
+    padding: 5px;
+    text-align: center;
+    border-radius: 6px;
+}

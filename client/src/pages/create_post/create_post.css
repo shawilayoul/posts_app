@@ -1,0 +1,30 @@
+.post_container {
+    display: grid;
+    justify-content: center;
+}
+
+form {
+    display: grid;
+    justify-content: center;
+}
+
+input,
+textarea {
+    padding: 5px;
+    margin-bottom: 1rem;
+    width: 250px;
+    margin-top: 0.5rem;
+    border-radius: 6px;
+}
+
+button {
+    background-color: black;
+    color: white;
+    padding: 8px;
+    border-radius: 6px;
+}
+
+button:hover {
+    color: black;
+    background-color: aliceblue;
+}
